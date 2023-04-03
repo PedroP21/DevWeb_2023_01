@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+    <main>
+        <form action="mailto:pedro.patricio.rds21@gmail.com" method="post">
+            <!-- campos: nome, idade, email do cliente-->
+            <label for="idnome">Nome:</label>
+            <input type="text" id="idnome" required><br>
+
+            <label for="ididade">Idade:</label>
+            <input type="number" id="ididade" required><br>
+
+            <label for="idemail">E-mail:</label>
+            <input type="text" id="idemail" required><br>
+
+            <!-- indique nossa loja -->
+            <label for="">Você indicaria nossa loja para um amigo?</label><br>
+
+            <input type="radio" name="indiq" required>
+            <label for="">Sim</label><br>
+
+            <input type="radio" name="indiq">
+            <label for="">Não</label><br>
+
+            <!-- o que o cliente mais gostou na nossa loja -->
+            <label for="">O que você mais gostou da nossa loja?</label><br>
+
+            <input type="checkbox" required>
+            <label for="">Doces</label><br>
+
+            <input type="checkbox">
+            <label for="">Ambiente</label><br>
+
+            <input type="checkbox">
+            <label for="">Entrega do pedido (Se solicitou via app)</label><br>
+
+            <input type="checkbox">
+            <label for="">Atendimento</label><br>
+
+            <input type="checkbox">
+            <label for="">Valores</label><br>
+
+            <!-- campo para saber qual o ultimo pedido do cliente -->
+            <label>Qual sobremesa ou salgado você comprou em seu último pedido?</label><br/>
+            <input type="text" list="comida" placeholder="Seu último pedido" required><br/>
+
+            <datalist id="comida">
+                <option value="Brigadeiro"></option>
+                <option value="Beijinho"></option>
+                <option value="Cocada"></option>
+                <option value="Trufa"></option>
+                <option value="Coxinha"></option>
+                <option value="Kibe"></option> 
+                <option value="Bolinho de queijo"></option>
+                <option value="Fogazza"></option>
+                </datalist><br/>
+           
+            <!-- Em qual unidade foi atendido -->
+            <label for="unid1">Em qual unidade você foi atendido?</label><br />
+            <select name="" id="unid1">
+                <option value="">Aclimação</option>
+                <option value="">Liberdade</option>
+                <option value="">Tatuapé</option>
+                <option value="">São Joaquim</option></select><br />
+
+             <!-- Enviar para email  -->
+             <input type="submit" value="Enviar"/>
+        </form>
+    </main>
+</body>
+
+</html>
