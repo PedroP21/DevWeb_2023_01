@@ -1,0 +1,13 @@
+#fred{
+    border: 2px  dashed blueviolet;
+    padding: 25px;
+}
+#fredEsp{
+/*  margin: 0 25 0 0px; ou */
+
+/* margin-top: 0;
+margin-right: 25;
+margin-bottom: 0;
+margin-left: 0; */
+margin-right: 10px;
+} 
