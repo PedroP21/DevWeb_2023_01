@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+body{
+background-color: rgb(232, 231, 255);
+
+}
+
+.high{
+ margin: 20px 40px;
+ color: #ffffff;
+ background-color: #2E6DA4;
+ text-shadow: 2px 2px 2px #A12127;
+ font-size: 40px;
+ font-weight: 500;
+}
+
+/* configuração genérica de classe */
+.text{
+ color: #C40030;
+ font-size: 20px; 
+ font-family: 'Russo One', sans-serif;
+}
+
+.album-list{
+    font-size: 24px;
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #808080;
+
+}
+
+/* aplicação de classe a elemento especifico */
+footer.text{
+    color:#2E6DA4;
+    border-top: solid 1px;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+*{
+    background-color: #8c8b79;
+    font-family: 'Special Elite', cursive;
+    color:#ffffff;
+    text-shadow: 2px 2px 2px #002244;
+    font-size: 1rem;
+
+}
+
+.mysection{
+    border: 1px solid #ccffd5;
+    text-align: center;
+    
+}
+
+h3{
+    color: #002244;
+    text-shadow: 1px 1px 1px #aaaaaa;
+}
+
+
+/* 
+#002244 (azul escuro)
+#a2a9b1 (cinza claro)
+#3f4447 (cinza escuro)
+#8c8b79 (verde oliva)
+#ffffff (branco) */
