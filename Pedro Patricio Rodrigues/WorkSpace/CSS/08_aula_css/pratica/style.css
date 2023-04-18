@@ -1,0 +1,46 @@
+img {
+    width: 300;
+    height: 200px;
+}
+
+.img01 {
+    float: left;
+}
+.img02 {
+    float: right;
+}
+
+div {
+    height: 400px;
+    border: 1px solid #a50000;
+}
+
+/* 2 parte */
+.sctimg01 {
+    float: left;
+}
+
+.sctimg02 {
+    float: left;
+}
+.secaoparagrafo {
+    clear: left;
+}
+
+/* 3 parte da aula */
+
+#section1 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #8b43ff;
+    box-sizing: border-box;
+}
+
+#section2 {
+    width: 300px;   
+    height: 200px;
+    padding: 50px;
+    border: 1px solid #51ff9f;
+    box-sizing: border-box;
+}

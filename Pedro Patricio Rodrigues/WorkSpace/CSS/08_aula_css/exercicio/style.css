@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+/* https://fonts.google.com/specimen/VT323 */
