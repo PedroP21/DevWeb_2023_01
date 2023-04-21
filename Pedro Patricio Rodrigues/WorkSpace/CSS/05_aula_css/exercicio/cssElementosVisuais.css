@@ -1,12 +1,26 @@
 @charset "utf-8";
 
-body{
-   background-image: url(johnWickBack.jpg);
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
+body {
+    background-image: url(johnWickBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-img{
-   width: 300px;
+img {
+    width: 400px;
+    height: 300;
+}
+figure {
+    width: 400px;
+    padding: 10px;
+    border: 2px dashed #3b3b3b;
+    background-color: #ffffff41;
+}
+
+figcaption {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px #686868;
+    padding: 15px;
 }
