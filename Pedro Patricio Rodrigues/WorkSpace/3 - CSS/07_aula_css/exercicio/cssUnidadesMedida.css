@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* elementos pai ////////////// */
+#showcase {
+  margin: 10px;
+  padding: 0px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+#myarticle {
+  margin: 10px;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#mysection {
+  margin: 10px;
+  border: 1px solid #750ffa;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* elementos filho ////////////// */
+
+#showcase h1 {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+#showcase p {
+  font-size: 0.8em;
+}
+
+#myarticle h2 {
+  font-size: 1.5em;
+}
+
+#myarticle p{
+  line-height: 1em;
+  font-size: 0.7em;
+}
+
+#myarticle table {
+  border: 1px solid;
+}
+
+#myarticle table td,th {
+  border: 1px solid;
+  padding: 0.5em;
+}
+
+#mysection figure img{
+  width: 30%;
+  padding: 1%;
+}
+
+#mysection figcaption {
+  font-size: 1.2em;
+  padding: 1%;
+}
+
+
+/* configuração de âncora */
+.btn {
+  font-size: 1em;
+  text-decoration: none;
+  color: #00804a;
+  border: 1px solid #00804a;
+  padding: 5px;
+  border-radius: 15px;
+}

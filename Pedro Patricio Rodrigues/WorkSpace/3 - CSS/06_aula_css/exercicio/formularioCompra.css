@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     border: 1px solid #000000;
-    	text-align: center;		
+    text-align: center;
 }
