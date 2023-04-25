@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.container {
+    display: grid;
+    /* grid-template-columns: 100px 100px;   
+    grid-template-rows: 100px 100px; */ 
+    /* ou */
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px; */
+
+    grid-template-columns: 100px 100px; 
+    grid-template-rows: 100px 100px;
+    
+
+
+    /* grid-template-areas: "header header main main" "footer footer sidebar . ";  */
+    /* grid-template-areas: "filho1 filho1 filho1 ." "filho2 filho2 . ." "filho3 filho3 filho3 filho3" "filho4 filho4 filho4 .";    <---linha template-areas */
+    /* não pode quebrar a linha do grid-template-areas */
+
+    /* column-gap: 10px;  
+    row-gap: 15px; */
+    gap:  40px 10px;
+    /* justify-items: start; */
+    /* start - center - end - stretch */
+}
+
+.item-1 {
+    border: 1px solid #333;
+    background-color: brown;
+    /* grid-area: header; */
+    /* filho1 */
+    width: 50px;
+    height: 50px;
+}
+
+.item-2 {
+    border: 1px solid #333;
+    background-color: blue;
+    /* grid-area: main; */
+        /* filho2 */
+        width: 50px;
+    height: 50px;
+}
+
+.item-3 {
+    border: 1px solid #333;
+    background-color: purple;
+    /* grid-area: footer; */
+        /* filho3 */
+        width: 50px;
+    height: 50px;
+}
+
+.item-4 {
+    border: 1px solid #333;
+    background-color: yellow;
+    /* grid-area: sidebar; */
+        /* filho4 */
+    width: 50px;
+    height: 50px;
+}
+
+/* Anotações Grid
+retas verticais e horizontais
+
+Primeiro elemento = display grid (sempre no pai)
+
+Você sempre precisa definir um container (pai) para 
+trabalhar com Grid layout
+
+ grid-template-areas: "filho1 filho1 filho1"; --- (cada "" é uma linha) 
+
+"filho1 filho1 filho1 ." --- (    .  significa que você não quer inserir nada na linha)
+
+não pode quebrar a linha do  */
