@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#container-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 120px 120px 120px;
+    gap: 10px;
+}
+
+#container-1 .item-1 {
+    background-color: rgb(255, 0, 0);
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#container-1 .item-2 {
+    background-color: aqua;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#container-1 .item-3 {
+    background-color: rgb(0, 255, 0);
+}
+
+#container-1 .item-4 {
+    background-color: rgb(217, 255, 0);
+}
