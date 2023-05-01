@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-shadow: #00000000 2px 2px 9px;
+}
+
+.produto {
+    border: 1px solid #ffd706;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    height: 520px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.produto .btn {
+    text-decoration: none;
+    color: #ffd706;
+    border: 1px solid #ffd706;
+    border-radius: 15px;
+    margin: px;
+    padding: 10px 20px;
+}
+
+.paragrafo2 {
+    clear: both;
+}
+
+.funcionamento {
+    margin: 10px;
+    width: 20%;
+}
+
+.produto li {
+    list-style: none;
+    padding: 16px;
+    text-align: center;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+/* pseudoclasses //////////// */
+
+.produto .btn:hover {
+    background-color: rgb(88, 88, 0);
+}
+
+.lista li:first-child {
+    border-bottom: 1px dashed;
+    background-color: #707070;
+}
+
+.lista li:nth-child(3) {
+    background: #c4b582;
+}
+
+.lista li:nth-child(6) {
+    background: #B8860B;
+}
+
+p:last-child{
+    color: brown;
+}
+
+.produto p:first-of-type {
+    color:#ffd706;
+    font-size: 18px;
+}
+
+  /* pseudoelemento //////////// */
+
+.produto h2::first-letter{
+    font-size: 150%;
+    color: #ffd706;
+}
+
+.paragrafo1::first-line {
+   color: aqua;
+}
+
+::selection{
+    color: rgb(255, 153, 0);
+    background-color: #3f0072;
+
+}

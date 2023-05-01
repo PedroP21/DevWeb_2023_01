@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.item-box-1 {
+    border: 1px solid #000;
+    width: 250px;
+    height: 200px;
+    flex: 1;
+    order: 4;
+    align-self: baseline;
+
+    background-image: url(Hyuuga.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.item-box-2 {
+    border: 1px solid #ff0000;
+    width: 150px;
+    height: 240px;
+    flex: 1.5;
+    order: 2;
+
+    background-image: url(uchiha.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+
+.item-box-3 {
+    border: 1px solid #4c00ff;
+    width: 200px;
+    height: 280px;
+    flex: 0.7;
+    order: 3;
+
+    background-image: url(uzumaki.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item-box-4 {
+    border: 1px solid #ffc400;
+    width: 300px;
+    height: 260px;
+    flex: 1.5;
+    order: 1;
+
+    background-image: url(senju.jpg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.paragrafo{
+    background-color: #00000021;
+    color: #ffffff;
+    text-shadow: #00000085 2px 2px 5px;
+    font-size: 20px;
+}

@@ -12,9 +12,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     color: red;
 }
+
 a:active {
     color: green;
 }
@@ -31,35 +33,32 @@ a:active {
     border: none;
 }
 
-.btn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-   }
-   .btn:hover {
+.btn:hover {
     background: red;
     color: #FFF;
-   }
-   
-   .categorias {
+}
+
+.categorias {
     margin-top: 20px;
     border: 1px gray solid;
     padding: 10px;
     border-radius: 15px;
-   }
-   .categorias h2 {
+}
+
+.categorias h2 {
     text-align: center;
-   }
-   .categorias ul {
+}
+
+.categorias ul {
     padding: 15px;
     list-style: none;
-   }
-   .categorias li {
+}
+
+.categorias li {
     padding-bottom: 8px;
     border-bottom: dashed 1px #333;
-   }
-   
+}
+
 
 
 /* Observe que o usar a configuração da propriedade font dessa forma:

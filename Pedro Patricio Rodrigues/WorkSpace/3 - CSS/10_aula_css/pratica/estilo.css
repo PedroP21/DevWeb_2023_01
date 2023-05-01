@@ -54,7 +54,7 @@ h2 {
 }
 
 /* quando menor que esta largura (768 neste caso - vc escolhe o tamanho) 
-    ele modifica o documento da forma que você modificar */
+    ele modifica o documento da forma que você ajustar */
 @media (max-width: 768px) {
     .col {
         width: 100%;
